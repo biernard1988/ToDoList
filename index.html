@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>To Do List - Bernard</title>
+  </head>
+  <body>
+    <div class="container col-md-12 col-lg-10 col-xl-8 mt-3">
+      <header id="main-header" class="text-white p-4 mb-3 rounded shadow-lg">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="text-center fst-italic" id="header-title">TO DO LIST</h1>
+            <i class="fa-solid fa-pencil" style="float: inline-end"></i>
+          </div>
+        </div>
+      </header>
+      <div class="card shadow-lg">
+        <div class="card-body">
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              id="inputField"
+              placeholder="Add Item To Do"
+            />
+            <button
+              type="button"
+              class="btn btn-primary fa-solid fa-plus"
+              id="addToDo"
+            ></button>
+          </div>
+          <div class="new-list" id="newList"></div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: url(img/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+#main-header {
+  background-color: rgba(128, 128, 128, 0.567);
+}
+
+h1 {
+  text-shadow: 10px 10px 10px #301919;
+}
+
+.card {
+  background-color: rgba(128, 128, 128, 0.567);
+}
+
+.new-list {
+  display: none;
+}
